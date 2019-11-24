@@ -1,12 +1,14 @@
-multiplo5 = 5
-while (True):
-    n = int(5)
-    if (n ==1000):
-        print('A finalizado la Tabla')
-        break
-    
-    multiplo5 = multiplo5 * n
-print(("El total es: {} ").format(multiplo5))
+multiplo = 1
+while (multiplo <= 1000):
+    if (multiplo % 5 == 0):
+        cont = 1
+        while (cont <=12):
+            print(multiplo, " X ", cont, " = ", multiplo * cont)
+            cont = cont + 1
+        print ("------------")
+    multiplo = multiplo + 1
+
+
 
     
         
